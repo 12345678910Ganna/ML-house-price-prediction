@@ -42,12 +42,18 @@ flowchart LR
 ML-house-price/
 ├── backend/
 │   ├── app/
-│   │   ├── api/routes/prediction.py
-│   │   ├── core/config.py
-│   │   ├── schemas/prediction.py
-│   │   ├── services/inference.py
-│   │   ├── services/preprocessing.py
-│   │   ├── utils/logging_config.py
+│   │   ├── api/
+│   │   │   └── routes/
+│   │   │       └── prediction.py
+│   │   ├── core/
+│   │   │   └── config.py
+│   │   ├── schemas/
+│   │   │   └── prediction.py
+│   │   ├── services/
+│   │   │   ├── inference.py
+│   │   │   └── preprocessing.py
+│   │   ├── utils/
+│   │   │   └── logging_config.py
 │   │   └── main.py
 │   ├── models/
 │   │   ├── house_price.pkl
@@ -55,25 +61,37 @@ ML-house-price/
 │   ├── tests/
 │   ├── .env.example
 │   └── requirements.txt
+│
 ├── frontend/
-│   ├── public/locations.json
+│   ├── public/
+│   │   └── locations.json
 │   ├── src/
-│   │   ├── api/predictionClient.ts
-│   │   ├── components/PredictionForm.tsx
+│   │   ├── api/
+│   │   │   └── predictionClient.ts
+│   │   ├── components/
+│   │   │   └── PredictionForm.tsx
 │   │   ├── pages/
-│   │   ├── styles/global.css
-│   │   ├── types/prediction.ts
+│   │   ├── styles/
+│   │   │   └── global.css
+│   │   ├── types/
+│   │   │   └── prediction.ts
 │   │   └── App.tsx
 │   ├── .env.example
 │   └── package.json
+│
 ├── notebooks/
 │   ├── house_price_model.ipynb
 │   ├── house_price.pkl
 │   └── locations.json
+│
 ├── .env.example
 ├── .gitignore
+├── LICENSE
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+├── run_backend.bat
+├── run_frontend.bat
+└── run_project.bat
 ```
 
 ## Tech Stack
