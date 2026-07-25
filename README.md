@@ -267,20 +267,7 @@ The selected model is `RandomForestRegressor` because it achieved the lowest tes
 | R² | 0.9281 |
 | 5-Fold CV Mean R² | 0.9412 |
 
-## Screenshots
 
-Add screenshots after running the frontend locally:
-
-- Home page with prediction form.
-- Loading state during prediction.
-- Result page with formatted predicted price.
-- FastAPI Swagger documentation page.
-
-Recommended folder:
-
-```text
-docs/screenshots/
-```
 
 ## Future Improvements
 
