@@ -22,7 +22,9 @@ class Settings(BaseSettings):
     log_level: str = "INFO"
     model_path: Path = BACKEND_DIR / "models" / "house_price.pkl"
     locations_path: Path = BACKEND_DIR / "models" / "locations.json"
-    cors_origins: list[str] = ["http://localhost:5173"]
+    cors_origins: list[str] = [
+    "http://localhost:5173",
+    ]
 
 
 settings = Settings()
