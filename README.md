@@ -152,6 +152,24 @@ npm run dev
 
 The frontend runs at `http://localhost:5173`.
 
+## Running the Project (Windows)
+
+After installing the dependencies, you can simply run:
+
+```bash
+run_project.bat
+```
+
+Or run each service separately:
+
+```bash
+run_backend.bat
+```
+
+```bash
+run_frontend.bat
+```
+
 ## Environment Variables
 
 Root example file: `.env.example`
