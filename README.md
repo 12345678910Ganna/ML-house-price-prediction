@@ -1,9 +1,19 @@
 # House Price Prediction
 
-A full-stack machine learning project that predicts residential property prices in India from listing attributes such as location, carpet area, floor, bathrooms, furnishing, ownership, transaction type, and facing direction.
+# 🏠 House Price Prediction
 
-The project includes a cleaned training notebook, an exported scikit-learn pipeline, a production-ready FastAPI inference backend, and a modern React + TypeScript frontend.
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Random Forest](https://img.shields.io/badge/Model-Random%20Forest-darkgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Last Commit](https://img.shields.io/github/last-commit/12345678910Ganna/ML-house-price-prediction)
 
+
+A full-stack Machine Learning application for predicting house prices using Random Forest Regression, with a FastAPI backend and a React + TypeScript frontend.
 ## Features
 
 - End-to-end machine learning workflow for house price prediction.
