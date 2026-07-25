@@ -296,20 +296,8 @@ The selected model is `RandomForestRegressor` because it achieved the lowest tes
 | 5-Fold CV Mean R² | 0.9412 |
 
 
-
-## Future Improvements
-
-- Add authentication for saved predictions.
-- Add model monitoring and prediction logging.
-- Store model metadata and training metrics in a versioned registry.
-- Add CI checks for backend tests and frontend builds.
-- Add end-to-end tests for the complete prediction flow.
-- Improve model explainability with feature importance and SHAP summaries.
-
 ## Contributors
 
 - Ganna
-
-## License
-
-This project is intended for educational and portfolio use. Add a license file such as MIT before publishing for reuse by others.
+- ![Stars](https://img.shields.io/github/stars/12345678910Ganna/ML-house-price-prediction?style=social)
+- ![Forks](https://img.shields.io/github/forks/12345678910Ganna/ML-house-price-prediction?style=social)
