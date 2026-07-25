@@ -11,7 +11,9 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Last Commit](https://img.shields.io/github/last-commit/12345678910Ganna/ML-house-price-prediction)
+
 A full-stack machine learning project that predicts residential property prices in India from listing attributes such as location, carpet area, floor, bathrooms, furnishing, ownership, transaction type, and facing direction. The project includes a cleaned training notebook, an exported scikit-learn pipeline, a production-ready FastAPI inference backend, and a modern React + TypeScript frontend.
+
 ## Features
 
 - End-to-end machine learning workflow for house price prediction.
