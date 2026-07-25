@@ -23,7 +23,7 @@ A full-stack machine learning project that predicts residential property prices 
 
 ## Architecture Diagram
 
-flowchart LR
+```flowchart LR
     subgraph Frontend
         A[User]
         B[React + Vite]
