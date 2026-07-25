@@ -23,31 +23,18 @@ A full-stack machine learning project that predicts residential property prices 
 
 ## Architecture Diagram
 
-```flowchart LR
-    subgraph Frontend
-        A[User]
-        B[React + Vite]
-        H[Result Page]
-    end
-
-    subgraph Backend
-        C[FastAPI]
-        D[Pydantic Validation]
-        E[Preprocessing]
-        F[scikit-learn Pipeline]
-        G[Price Prediction]
-    end
-
-    A --> B
-    B -->|POST /predict| C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
+```mermaid
+flowchart LR
+    A[User] --> B[React + Vite Frontend]
+    B -->|POST /predict| C[FastAPI Backend]
+    C --> D[Pydantic Validation]
+    D --> E[Preprocessing Service]
+    E --> F[Loaded scikit-learn Pipeline]
+    F --> G[Price Prediction]
     G --> C
-    C -->|JSON Response| H
+    C -->|JSON Response| B
+    B --> H[Result Page]
 ```
-
 ## Project Structure
 
 ```text
