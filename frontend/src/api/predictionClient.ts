@@ -2,6 +2,7 @@ import type { PredictionRequest, PredictionResponse } from "../types/prediction"
 
 const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, "") ?? "http://localhost:8000";
+console.log("API_BASE_URL =", API_BASE_URL);
 
 async function parseErrorMessage(response: Response): Promise<string> {
   try {
