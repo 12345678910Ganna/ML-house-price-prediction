@@ -152,6 +152,24 @@ npm run dev
 
 The frontend runs at `http://localhost:5173`.
 
+## Running the Project (Windows)
+
+After installing the dependencies, you can simply run:
+
+```bash
+run_project.bat
+```
+
+Or run each service separately:
+
+```bash
+run_backend.bat
+```
+
+```bash
+run_frontend.bat
+```
+
 ## Environment Variables
 
 Root example file: `.env.example`
@@ -267,20 +285,7 @@ The selected model is `RandomForestRegressor` because it achieved the lowest tes
 | R² | 0.9281 |
 | 5-Fold CV Mean R² | 0.9412 |
 
-## Screenshots
 
-Add screenshots after running the frontend locally:
-
-- Home page with prediction form.
-- Loading state during prediction.
-- Result page with formatted predicted price.
-- FastAPI Swagger documentation page.
-
-Recommended folder:
-
-```text
-docs/screenshots/
-```
 
 ## Future Improvements
 
