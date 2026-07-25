@@ -98,6 +98,13 @@ Dataset: [House Price Dataset on Kaggle](https://www.kaggle.com/datasets/juhibho
 
 The raw dataset is intentionally ignored by Git because it is large and should be downloaded from Kaggle.
 
+## Live Demo
+
+Frontend:
+https://ml-house-price-prediction.vercel.app/
+
+> Note: The frontend is deployed for demonstration purposes. Backend API hosting is not currently available, so prediction requests are disabled in the live demo.
+
 ## Installation
 
 Clone the repository and move into the project directory:
