@@ -24,9 +24,9 @@ class Settings(BaseSettings):
     locations_path: Path = BACKEND_DIR / "models" / "locations.json"
     cors_origins: list[str] = [
     "http://localhost:5173",
-    "https://ml-house-price-prediction.vercel.app/",
-    ]
-    cors_origins: list[str] = ["*"]
+    "https://ml-house-price-prediction.vercel.app",
+]
+    #cors_origins: list[str] = ["*"]
 
 
 settings = Settings()
