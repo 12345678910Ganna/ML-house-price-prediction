@@ -116,10 +116,10 @@ Dataset: [House Price Dataset on Kaggle](https://www.kaggle.com/datasets/juhibho
 
 The raw dataset is intentionally ignored by Git because it is large and should be downloaded from Kaggle.
 
-## Live Demo
+## 🚀 Live Demo
 
-- Frontend: https://ml-house-price-prediction.vercel.app
-- API Docs: https://beautiful-spontaneity-xz.up.railway.app/docs
+- 🌐 Frontend: https://ml-house-price-prediction.vercel.app
+- 📖 API Docs: https://beautiful-spontaneity-xz.up.railway.app/docs
 
 ## 🎥 Demo Video
 
