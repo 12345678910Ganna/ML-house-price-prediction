@@ -121,6 +121,12 @@ The raw dataset is intentionally ignored by Git because it is large and should b
 - Frontend: https://ml-house-price-prediction.vercel.app
 - API Docs: https://beautiful-spontaneity-xz.up.railway.app/docs
 
+## 🎥 Demo Video
+
+📹 Watch the full project demonstration:
+
+https://drive.google.com/file/d/10vXCjcCeesOg2Y7bx2HPKAybC-xlBRxC/view?usp=sharing
+
 ## Installation
 
 Clone the repository and move into the project directory:
