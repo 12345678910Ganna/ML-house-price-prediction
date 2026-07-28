@@ -125,7 +125,7 @@ The raw dataset is intentionally ignored by Git because it is large and should b
 
 📹 Watch the full project demonstration:
 
-https://drive.google.com/file/d/10vXCjcCeesOg2Y7bx2HPKAybC-xlBRxC/view?usp=sharing
+https://drive.google.com/file/d/1YCR4XWJXRSPcaaDV2KybiiiL2qM2a9Cq/view?usp=sharing
 
 ## Installation
 
